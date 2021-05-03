@@ -2,6 +2,6 @@
 
 ---
 
-This is my collection of configuration files for *nix* enviroments
+This is my collection of configuration files for *\*nix* enviroments
 - .vimrc  - vIM configuration files
 - .bashrc - Bash configuration files
