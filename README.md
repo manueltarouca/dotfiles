@@ -11,7 +11,8 @@ This is my collection of configuration files for *\*nix* enviroments:
 
 ```
 chmod +x ./scrips/install
-./scripts/install
+cd ./scripts
+./install
 ```
 
 ## To-do
