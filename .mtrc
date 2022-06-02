@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -e "\n~ Welcome $USER, it is $(date '+%A %H:%M')\n";
+
+# Aliases
+
+alias update='sudo apt update && sudo apt upgrade';
+alias editrc='code $HOME/.mtrc';
+alias reload='. $HOME/.bashrc';
+alias mypubkey='cat $HOME/.ssh/id_rsa.pub'

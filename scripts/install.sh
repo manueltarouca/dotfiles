@@ -4,8 +4,7 @@ BASE_DIR=$(cd ..; pwd)
 echo $BASE_DIR
 
 # dot files included
-#DOTFILES=('.vimrc' '.bashrc')
-DOTFILES=('.vimrc')
+DOTFILES=('.mtrc' '.vimrc')
 
 # Add check if dotfiles exists in BASE_DIR
 
