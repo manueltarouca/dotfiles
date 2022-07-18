@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo -e "\n~ Welcome $USER, it is $(date '+%A %H:%M')\n";
+export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
 
 # Aliases
 
