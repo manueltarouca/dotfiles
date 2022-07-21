@@ -12,3 +12,4 @@ alias editrc='code $HOME/.mtrc';
 alias confwsl='code /etc/wsl.conf';
 alias upgrade-npm='sudo npm install -g npm';
 alias upgrade-node='sudo n lts';
+alias prose-blog='ssh mt@prose.sh';
