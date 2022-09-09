@@ -6,6 +6,7 @@ export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
 # Aliases
 
 alias update='sudo apt update && sudo apt upgrade';
+alias sure-install='sudo apt install';
 alias mypubkey='cat $HOME/.ssh/id_rsa.pub'
 alias reload='. $HOME/.bashrc';
 alias editrc='code $HOME/.mtrc';
